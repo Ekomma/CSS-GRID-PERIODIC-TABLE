@@ -1,0 +1,1 @@
+*This is a sample periodic Table with CSS GRID
