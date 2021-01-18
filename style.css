@@ -1,0 +1,76 @@
+body {
+    background: #000;
+    color: #fff;
+    margin: 12vh;
+    font-size: 2vh;
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(19, auto);
+    column-gap: .5vh;
+    row-gap: .5vh;
+    /* margin: 0 auto;
+    width: 90% */
+}
+.element {
+    /* padding: 2vh; */
+    background-color: aqua;
+}
+.helium {
+    grid-column-start: -2;
+}
+.element .elem, .topval .num, .leftval .num {
+    text-align: center;
+}
+.leftval .num {
+    margin-left: vh;
+    margin-right: 2vh;
+}
+.element .num {
+    text-align: left;
+    margin: .3vh 0 0 .3vh;
+    font-size: 1.8vh;
+}
+.be, .al {
+    grid-column-start: -7;
+}
+.blank {
+    background: #000;
+}
+.element .elem{
+    font-size: 2vh;
+    font-weight: 700;
+    margin-top: 0 0 .5vh 0;
+}
+.element .elem {
+    padding: 1.1vh;
+    margin: 0;
+}
+.dull-green {
+    background: #225520;
+}
+.green {
+    background: #007700;
+}
+.pink {
+    background: #ad075a;
+}
+.dark-blue {
+    background: #191988;
+}
+.orange {
+    background: rgb(231, 77, 5);
+}
+.blue {
+    background: rgb(0, 89, 255);
+}
+.purple {
+    background: rgb(131, 11, 131);
+}
+.red {
+    background: rgb(204, 4, 4);
+}
+.element:hover {
+    opacity: .8;
+}
